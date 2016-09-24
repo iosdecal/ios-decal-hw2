@@ -47,6 +47,12 @@ By the end of this project, you will have learned how to update UI elements in r
 2. Add a landscape view like the iOS calculator
 3. Present an [alert](https://developer.apple.com/reference/uikit/uiviewcontroller/1621428-popoverpresentationcontroller) if user performs an invalid action (e.g. divides by zero)
 
+## Grading
+
+Grading is based on how many autograder tests you pass. We provided all autograder tests in the *UITests group. You get assigned 1 point for every set of tests you passed. Note that if you don't pass Required Behaviors, you automatically get an F. You get a total score out of 4.
+
+We reserve the top 3 submissions for the top students in the class. These students will get a 5/4 and will be passed on to Apple recruiting. 
+
 ## Video Demos
 
 
