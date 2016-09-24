@@ -49,9 +49,9 @@ By the end of this project, you will have learned how to update UI elements in r
 
 ## Grading
 
-Grading is based on how many autograder tests you pass. We provided all autograder tests in the *UITests group. You get assigned 1 point for every set of tests you passed. Note that if you don't pass Required Behaviors, you automatically get an F. You get a total score out of 4.
+Grading is based on how many autograder tests you pass. We provided all autograder tests in the *UITests group. You get assigned 1 point for every set of tests you passed. Note that if you don't pass Required Behaviors, you automatically get an F. You get a total score out of 4. For context a 0/4 and 1/4 - F, 2/4 - D, 3/4 - C, 4/4 - B.
 
-We reserve the top 3 submissions for the top students in the class. These students will get a 5/4 and will be passed on to Apple recruiting. 
+We reserve the top submissions for the top students in the class. These students will get a 5/4 and will be passed on to Apple recruiting. 
 
 ## Video Demos
 
