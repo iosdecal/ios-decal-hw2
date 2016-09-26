@@ -49,9 +49,9 @@ By the end of this project, you will have learned how to update UI elements in r
 
 ## Grading
 
-Grading is based on how many autograder tests you pass. We provided all autograder tests in the *UITests group. You get assigned 1 point for every set of tests you passed. Note that if you don't pass Required Behaviors, you automatically get an F. You get a total score out of 4. For context a 0/4 and 1/4 - F, 2/4 - D, 3/4 - C, 4/4 - B.
+Grading is primarily based on your app's functionality (as determined by the autograder). We have provided samples of 13/16 autograder test cases in the [*UITests group](https://github.com/iosdecal/ios-decal-hw2/tree/master/SwiftCalc/SwiftCalcUITests) as a way for you to test your app as you build it out. Following the specs outlined in this README will ensure you pass the remaining 3 hidden test cases. You will be given 1 point for every set of tests you passed. Note that if you don't pass Required Behaviors, your tests will fail against the autograder. 
 
-We reserve the top submissions for the top students in the class. These students will get a 5/4 and will be passed on to Apple recruiting. 
+The total score is out of 4, and students with the top submissions are eligible to receive one extra-credit point (5/4). These students have the option to have their resumes refered to Apple Univeristy recruiting. 
 
 ## Video Demos
 
