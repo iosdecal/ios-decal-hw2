@@ -15,7 +15,7 @@ As an added bonus, there are 4 test suites (see `SwiftCalcUITests`) to test your
 By the end of this project, you will have learned how to update UI elements in response to user interaction, the basics of the Swift 3.0 language through implementing a subset of the iOS calculator features, and the fundamentals of TDD in Xcode8.
 
 ## Instructions
-**Create a working calculator**. In any cases of uncertainty on how to update `resultLabel`, follow the behavior of the iOS calculator.
+**Create a working calculator**. Note that for this project, you will be responsible for building a greedy calculator, in which all orders of operation have the same priority. In any cases of uncertainty on how to update `resultLabel`, follow the behavior of the iOS calculator.
 
 ### 1.  Required Behaviors  (See `GeneralCalcUITests`)
   - [ ] a. `resultLabel` can hold a max of 7 characters 
@@ -40,7 +40,7 @@ By the end of this project, you will have learned how to update UI elements in r
   - [ ] a. Division produces `Double`s instead of `Int`s where appropriate
   - [ ] b. Display an `Int` when the `Double` result is equivalent to an `Int` of valid size 
   - [ ] c. Support the entry and operations of `Decimal`s (see the `prettyOutput` computed property in `BaseExtension`)
-  - [ ] d. Support Scientific Notation for very large or very small results (`1000000 * 25 -> 2.5e7`, `9 / 4000000 -> 2.25e-6`)
+  - [ ] d. (Optional) Support Scientific Notation for very large or very small results (`1000000 * 25 -> 2.5e7`, `9 / 4000000 -> 2.25e-6`)
 
 ### Bells & Whistles
 1. Make the calculator look more aesthetic (update buttons styles) 
