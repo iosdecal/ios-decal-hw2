@@ -1,7 +1,7 @@
 # Homework 2: Swifty Calculator
 
 ## Due
-Wednesday, October 3rd at 11:59 PM
+Monday, September 25 at 11:59pm
 
 ## Description
 In your first homework assignment, you learned the basics of types, functions, and classes in Swift 3.0 via the Xcode Playground. Our lectures thereafter have introduced you to the MVC pattern, how to perform UI updates and seques (e.g. `label.text = 'foo'`, `pushViewController`), and now you will be putting these techniques together to build a working calculator.
@@ -17,7 +17,7 @@ By the end of this project, you will have learned how to update UI elements in r
 ## Instructions
 **Create a working calculator**. Note that for this project, you will be responsible for building a greedy calculator, in which all orders of operation have the same priority. In any cases of uncertainty on how to update `resultLabel`, follow the behavior of the iOS calculator.
 
-### 1.  Required Behaviors  (See `GeneralCalcUITests`)
+### 1.  General Requirements  (See `GeneralCalcUITests`)
   - [ ] a. `resultLabel` can hold a max of 7 characters 
   - [ ] b. Pressing a number button updates the `resultLabel` (if a user action would violate rule a, ignore that action)
   - [ ] c. `resultLabel` displays the correct value (the current number being entered, or the result of a calculation)
@@ -31,27 +31,25 @@ By the end of this project, you will have learned how to update UI elements in r
   - [ ] c. Support multiplication between single-digit integers
   - [ ] d. Support division between any two integers
 
-### 3.  Intermediate Operations (See `IntermediateCalcUITests`)
+### 3.  Intermediate Operations (See `IntermediateCalcUITests`) TODO: optional?
   - [ ] a. Consecutive operations will update `resultLabel` as though the `=` button was pressed prior (after pressing the buttons [`1`,`+`,`2`,`+`] `resultLabel` should read `3`. Then, after pressing [`4`, `=`], `resultLabel` should read `7`)
   - [ ] b. Support successive addition and subtraction operations on integers
   - [ ] c. Support valid sequences of operations on integers (pressing [`2`,`+`, `-`, `\`, `*`, `3`,`=`] should produce `6`)
 
-### 4. Advanced Operations (See `AdvancedCalcUITests`)
+### 4. Advanced Operations (See `AdvancedCalcUITests`) TODO: optional?
   - [ ] a. Division produces `Double`s instead of `Int`s where appropriate
   - [ ] b. Display an `Int` when the `Double` result is equivalent to an `Int` of valid size 
   - [ ] c. Support the entry and operations of `Decimal`s (see the `prettyOutput` computed property in `BaseExtension`)
   - [ ] d. (Optional) Support Scientific Notation for very large or very small results (`1000000 * 25 -> 2.5e7`, `9 / 4000000 -> 2.25e-6`)
 
-### Bells & Whistles
+### Other Bells & Whistles (OPTIONAL)
 1. Make the calculator look more aesthetic (update buttons styles) 
 2. Add a landscape view like the iOS calculator
 3. Present an [alert](https://developer.apple.com/reference/uikit/uiviewcontroller/1621428-popoverpresentationcontroller) if user performs an invalid action (e.g. divides by zero)
 
 ## Grading
 
-Grading is primarily based on your app's functionality (as determined by the autograder). We have provided samples of 13/16 autograder test cases in the [*UITests group](https://github.com/iosdecal/ios-decal-hw2/tree/master/SwiftCalc/SwiftCalcUITests) as a way for you to test your app as you build it out. Following the specs outlined in this README will ensure you pass the remaining 3 hidden test cases. You will be given 1 point for every set of tests you passed. Note that if you don't pass Required Behaviors, your tests will fail against the autograder. 
-
-The total score is out of 4, and students with the top submissions are eligible to receive one extra-credit point (5/4). These students have the option to have their resumes refered to Apple Univeristy recruiting. 
+Grading is primarily based on your app's functionality (as determined by the autograder). We have provided autograder test cases in the [*UITests group](https://github.com/iosdecal/ios-decal-hw2/tree/master/SwiftCalc/SwiftCalcUITests) as a way for you to test your app as you build it out. Following the specs outlined in this README will ensure you pass the remaining 3 hidden test cases. You will be given 1 point for every set of tests you passed. Note that if you don't pass Required Behaviors, your tests will fail against the autograder. 
 
 ## Video Demos
 
